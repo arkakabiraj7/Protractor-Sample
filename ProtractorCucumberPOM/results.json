@@ -1,0 +1,239 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-the-functionality-of-landing-page;verify-page-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "verify page title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "When browser  opens up and  navigate to url \"https://www.key.com/personal/financial-wellness/index.jsp\"",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "page should be displayed and page title should be \"Financial Wellness | KeyBank\"",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4531000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-the-functionality-of-landing-page;verify-logo-of-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "verify logo of page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "When browser  opens up and  redirect to url \"https://www.key.com/personal/financial-wellness/index.jsp\"",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "logo should be properly displayed",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-the-functionality-of-landing-page;test-signon-functionlity",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test signOn Functionlity",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "When browser  opens up and  get to url \"https://www.key.com/personal/financial-wellness/index.jsp\"",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I click on Sign on",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on Sign On Button",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "SecureSignOn Page Should be displayed",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I enter userid \"userid\"",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on Continue",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I enter password \"pwd\" and  page will be displayed",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I  Click on Continue button",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "i should get the wrong userid id message",
+            "match": {
+              "location": "Features\\StepDef\\LandingPage.js:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1337000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-functionality-of-landing-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test the functionality of landing page",
+    "tags": [],
+    "uri": "Features\\LandingPage.feature"
+  }
+]
